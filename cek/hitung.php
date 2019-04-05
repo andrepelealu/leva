@@ -12,7 +12,7 @@ $to = "$tujuan";
 $from = urlencode($from);
 $to = urlencode($to);
 
-$data = file_get_contents("https://maps.googleapis.com/maps/api/distancematrix/json?units=imperial&origins=$from&destinations==$to&key=AIzaSyAFoec9FpseW2nz7O3goFURebpjQwG7Nfw");
+$data = file_get_contents("https://maps.googleapis.com/maps/api/distancematrix/json?units=imperial&origins=$from&destinations==$to&key=GOOGLEAPI");
 $data = json_decode($data);
 
 $time = 0;
